@@ -1,0 +1,22 @@
+print("Welcome to our site! ")
+name = input("What is your Name? ")
+print ("Hi " + name + " you look very nice today!")
+goal = input("what would you like to achieve? ")
+print("Well " + name + " I think your goal of achieving " + goal + " sounds very nice, I think you can do it!! ")
+print("Lets log you in now")
+username = input("Lets insert your username> ")
+password = input("What is your password> ")
+if username == "Bri" and password == "taylorswift":
+  print("Hey Bri ,Welcome back!")
+elif username == "Debbie" and password == "beyonce":
+  print(" Hey Debbie, welcome back. do you ever leave this place")
+else:
+  print("oh I guess i dont know you!!")
+print("since you're here, why dont you tell me about yourself")
+favActivity = input("What is your favorite activity? ")
+print(favActivity + " sounds very nice, I have never done it before. ")
+answer = input ("will you teach me? ")
+if answer == "yes" or "Yes":
+  print(" Wow thank you " + name + " I cant wait")
+elif answer == "no" or "No":
+  print("Wow okay then ")

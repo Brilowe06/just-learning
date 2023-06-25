@@ -1,0 +1,11 @@
+myBill = float(input("What was the bill amount?: "))
+print("Would you like to add a tip? " )
+MyTip = float(input("Insert tip percentage: "))
+billTip= ((MyTip/100)*myBill + myBill)
+print(billTip)
+
+print("Would you like to split the bill between guest? ")
+numberOfPeople = int(input("How many people?: "))
+print(billTip/numberOfPeople)
+modulo = (billTip/numberOfPeople)
+print("Here is your total:$", modulo)

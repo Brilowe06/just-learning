@@ -1,0 +1,11 @@
+print("How many seconds in a year!")
+Calc= int(input("how many years are you trying to calculate? "))
+print("There are 60 seconds in each minute. there are 60 minutes in each hour of the day. There are 24 hours in a day. and theeree earer 365 days in a year!")
+seconds=60
+minutes= 60
+hours= 24
+days=365
+months = 12
+
+Years=(60*60*24*365)*Calc
+print(Years)
